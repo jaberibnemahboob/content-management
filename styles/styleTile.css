@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700,900|PT+Sans:400,700|Raleway:300,400,500,700|Ubuntu:300,400,700');
+:root{
+    --font_body: 400 15px 'PT Sans', sans-serif;
+    --font_h1: 700 3em 'Raleway', sans-serif;
+    --font_h2: 700 2em 'Raleway', sans-serif;
+    --font_h3: 700 1.7em 'Raleway', sans-serif;
+    --font_h4: 700 1.5em 'Raleway', sans-serif;
+    --font_h5: 700 1.3em 'Raleway', sans-serif;
+    --font_h6: 400 1.1em 'Raleway', sans-serif;
+    --font_p: 400 1em 'PT Sans', sans-serif;
+    --font_a: 400 1em 'PT Sans', sans-serif;
+    --font_navMainA: 700 1.1em 'Nunito', sans-serif;
+    --font_navSubA: 700 1.2em 'Nunito', sans-serif;
+    --font_logoMain: 700 2em 'Ubuntu', sans-serif;
+    --font_logoSub: 700 0.9em 'Ubuntu', sans-serif;
+    --font_goalTarget: 300 4em 'Nunito', sans-serif;
+    --font_goalAchieve: 400 1em 'Nunito', sans-serif;
+
+    --fF_Raleway: 'Raleway', sans-serif;
+    --fF_Nunito: 'Nunito', sans-serif;
+    --fF_Ubuntu: 'Ubuntu', sans-serif;
+    --fF_PTSans: 'PT Sans', sans-serif;
+
+    --green:       #11a587; /*Green, Mountain Meadow*/ /* logo, headerMainMenu, footer */
+    --offWhite:    #efede0; /*Off White, Rice Cake*/ /* pageBg, submenuBg */
+    --white:       #ffffff; /*White, white*/ /* logoTriangle, highlightedLink, menuLink */
+    --black:       #444444; /*Black, Charcoal*/ /* text */
+    --ash:         #b4b1aa; /*Ash, Tea*/ /* icon, seperator */
+    --red:         #df6244; /*Red, Flamingo*/ /* link, highlightedCategory, highlightedType, highlightedGenre, button*/
+
+    --stripBg_ash: repeating-linear-gradient(45deg, transparent, transparent 4px, rgba(0,0,0,.1) 4px, rgba(0,0,0,.1) 4.4px);
+    --stripAsh_Bg: repeating-linear-gradient(45deg, rgba(0,0,0,.1), rgba(0,0,0,.1) 4px, transparent 4px, transparent 4.4px);
+    --stripGreen_Bg: repeating-linear-gradient(45deg, rgba(17,165,135,.9), rgba(17,165,135,.9) 4px, transparent 4px, transparent 4.4px);
+}
+body{font: var(--font_body); color: var(--black); background: var(--offWhite);}
+section{margin: 2em 0em; border-bottom: 1px solid #999999;}
+article{margin: 1.5em 0em;}
+h1{font: var(--font_h1); color: var(--white); margin: 0.75em 0em;}
+h2{font: var(--font_h2); margin: 0.75em 0em;}
+h3{font: var(--font_h3); margin: 0.75em 0em;}
+h4{font: var(--font_h4); margin: 0.75em 0em;}
+h5{font: var(--font_h5); margin: 0.75em 0em;}
+h6{font: var(--font_h6); margin: 0.75em 0em;}
+p{font: var(--font_p); margin: 0.75em 0em; text-align: justify;}
+a{text-decoration: none; font: var(--font_a); color: var(--green);}
+a.active, a:hover{font: var(--font_a); color: var(--red);}
+nav.main a{text-decoration: none; font: var(--font_navMainA); color: var(--black);}
+nav.main a.active, nav.main a:hover{font: var(--font_navMainA); color: var(--white);}
+nav.sub a{text-decoration: none; font: var(--font_navSubA); color: var(--black);}
+nav.sub a.active, nav.sub a:hover{font: var(--font_navSubA); color: var(--green);}
+img.img2svg{opacity: 0;}
+ul, ol, li{list-style: none;}
